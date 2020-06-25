@@ -4,8 +4,8 @@
 * Description:
 * Pin configuration
 * This file was automatically generated and should not be modified.
-* Device Configurator: 2.0.0.1483
-* Device Support Library (libs/psoc6pdl): 1.4.1.2240
+* cfg-backend-cli: 1.2.0.1483
+* Device Support Library (libs/psoc6pdl): 1.6.0.4266
 *
 ********************************************************************************
 * Copyright 2017-2019 Cypress Semiconductor Corporation
@@ -54,6 +54,9 @@ extern "C" {
 	#define CYBSP_SWO_HAL_PORT_PIN P6_4
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
+	#define CYBSP_SWO P6_4
+#endif //defined (CY_USING_HAL)
+#if defined (CY_USING_HAL)
 	#define CYBSP_SWO_HAL_IRQ CYHAL_GPIO_IRQ_NONE
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
@@ -78,6 +81,9 @@ extern "C" {
 	#define CYBSP_SWDIO_HAL_PORT_PIN P6_6
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
+	#define CYBSP_SWDIO P6_6
+#endif //defined (CY_USING_HAL)
+#if defined (CY_USING_HAL)
 	#define CYBSP_SWDIO_HAL_IRQ CYHAL_GPIO_IRQ_NONE
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
@@ -100,6 +106,9 @@ extern "C" {
 #define CYBSP_SWDCK_IRQ ioss_interrupts_gpio_6_IRQn
 #if defined (CY_USING_HAL)
 	#define CYBSP_SWDCK_HAL_PORT_PIN P6_7
+#endif //defined (CY_USING_HAL)
+#if defined (CY_USING_HAL)
+	#define CYBSP_SWDCK P6_7
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_SWDCK_HAL_IRQ CYHAL_GPIO_IRQ_NONE

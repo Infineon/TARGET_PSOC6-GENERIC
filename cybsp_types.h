@@ -4,7 +4,7 @@
 * Description:
 * Template for application-specific pin definitions. All of the pins are
 * configured as NC. Change the macros for the pins used by the application
-* (e.g. #define CYBSP_DEBUG_UART_TX P5_1).
+* (e.g. \code #define CYBSP_DEBUG_UART_TX P5_1 \endcode).
 *
 ********************************************************************************
 * \copyright
