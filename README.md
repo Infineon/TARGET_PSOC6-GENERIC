@@ -36,8 +36,9 @@ Defines:
 
 | Clock    | Source    | Output Frequency |
 |----------|-----------|------------------|
-| FLL      | IMO       | 100.0 MHz        |
-| CLK_HF0  | CLK_PATH0 | 100 MHz          |
+| FLL      | IMO       | 48.0 MHz         |
+| PLL      | IMO       | 144.0 MHz        |
+| CLK_HF0  | CLK_PATH1 | 144 MHz          |
 
 ### Power Configuration
 

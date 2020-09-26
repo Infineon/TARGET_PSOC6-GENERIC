@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="1.0.0"/>
+    <ToolInfo version="2.2.0.2801"/>
     <Devices>
         <Device mpn="CY8C6347BZI-BLD53">
             <BlockConfig>
@@ -68,14 +68,14 @@
                     </Personality>
                 </Block>
                 <Block location="srss[0].clock[0].fll[0]">
-                    <Personality template="mxs40fll" version="1.0">
+                    <Personality template="mxs40fll" version="2.0">
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="100.000"/>
+                        <Param id="desiredFrequency" value="48.000"/>
                     </Personality>
                 </Block>
                 <Block location="srss[0].clock[0].hfclk[0]">
                     <Personality template="mxs40hfclk" version="1.1">
-                        <Param id="sourceClockNumber" value="0"/>
+                        <Param id="sourceClockNumber" value="1"/>
                         <Param id="divider" value="1"/>
                     </Personality>
                 </Block>
@@ -121,7 +121,15 @@
                 </Block>
                 <Block location="srss[0].clock[0].periclk[0]">
                     <Personality template="mxs40periclk" version="1.0">
-                        <Param id="divider" value="1"/>
+                        <Param id="divider" value="2"/>
+                    </Personality>
+                </Block>
+                <Block location="srss[0].clock[0].pll[0]">
+                    <Personality template="mxs40pll" version="2.0">
+                        <Param id="lowFrequencyMode" value="false"/>
+                        <Param id="configuration" value="auto"/>
+                        <Param id="desiredFrequency" value="144.000"/>
+                        <Param id="optimization" value="MinPower"/>
                     </Personality>
                 </Block>
                 <Block location="srss[0].clock[0].slowclk[0]">
@@ -169,6 +177,5 @@
             </Netlist>
         </Device>
     </Devices>
-    <Libraries/>
     <ConfiguratorData/>
 </Design>
