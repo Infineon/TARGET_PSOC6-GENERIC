@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['functions',['Functions',['../group__group__bsp__functions.html',1,'']]]
+  ['modustoolbox_20board_20support_20package_20_28bsp_29_20overview',['ModusToolbox Board Support Package (BSP) Overview',['../md_source_bsps_mt_bsp_user_guide.html',1,'']]]
 ];
