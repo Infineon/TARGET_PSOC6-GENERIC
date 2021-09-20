@@ -2,7 +2,7 @@
   <board default_location="local">
     <id>PSOC6-GENERIC</id>
     <category>PSoC 6 BSPs</category>
-    <board_uri>https://github.com/cypresssemiconductorco/TARGET_PSOC6-GENERIC</board_uri>
+    <board_uri>https://github.com/Infineon/TARGET_PSOC6-GENERIC</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
     </chips>
@@ -21,12 +21,17 @@
         <li>NA</li>
         </ul>
     ]]></description>
-    <documentation_url>https://github.com/cypresssemiconductorco/TARGET_PSOC6-GENERIC</documentation_url>
+    <documentation_url>https://github.com/infineon/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+      <!-- Version 2.2.0 was never released for this board -->
       <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
