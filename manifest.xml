@@ -1,13 +1,13 @@
 <boards>
   <board default_location="local">
     <id>PSOC6-GENERIC</id>
-    <category>PSoC 6 BSPs</category>
+    <category>PSoC&#8482; 6 BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_PSOC6-GENERIC</board_uri>
     <chips>
       <mcu>CY8C6347BZI-BLD53</mcu>
     </chips>
     <name>PSOC6-GENERIC</name>
-    <summary>This board support package is intended for creating custom PSoC 6 BSPs.</summary>
+    <summary>This board support package is intended for creating custom PSoC&#8482; 6 BSPs.</summary>
     <prov_capabilities>cat1 hal low_power mcu_gp psoc6 rtc</prov_capabilities>
     <!-- Here are the capabilities that are used by ModusToolbox that can be enabled in the BSP -->
     <!--prov_capabilities>psoc6 cyw43xxx mcu_gp adc comp dma hal i2c low_power lptimer spi uart rtc std_crypto udb secure_boot arduino j2 ble bt wifi usb_device usb_host capsense capsense_button capsense_linear_slider capsense_radial_slider capsense_touchpad sdhc qspi memory led rgb_led switch memory_qspi nor_flash smart_io pdm i2s</prov_capabilities-->
@@ -23,7 +23,7 @@
     ]]></description>
     <documentation_url>https://github.com/infineon/TARGET_PSOC6-GENERIC</documentation_url>
     <versions>
-      <version tools_min_version="2.4.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen3">
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
         <num>Development build</num>
         <commit>develop</commit>
       </version>
